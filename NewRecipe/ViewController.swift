@@ -20,7 +20,6 @@ class RecipeViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableView: UITableView!
     
     var selectIndex: Int = 0
-    let pdf = "tempura"
     
     
     // うどん
@@ -124,7 +123,7 @@ class RecipeViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         switch selectIndex {
         case kTypeUdon:
-            webViewController?.pdfName = pdf
+            webViewController?.pdfName = udonPDF[indexPath.row]
             
         case kTypeTempura:
             webViewController?.pdfName = tempuraPDF[indexPath.row]
