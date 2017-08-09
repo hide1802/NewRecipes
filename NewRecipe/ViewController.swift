@@ -26,22 +26,22 @@ class RecipeViewController: UIViewController, UITableViewDelegate, UITableViewDa
     // うどん
     let udonNames: [String] = ["釜揚げうどん", "釜玉うどん", "明太釜玉うどん", "とろ玉うどん", "とろろ醤油うどん"]
     let udonImageNames: [String] = ["udon1", "udon2", "udon3", "udon4", "udon5"]
-    let udonPDF: [String] = ["", "", "", "", ""]
+    let udonPDF: [String] = ["kamaage", "kamatama", "mentaikamatama", "torotama", "tororosyouyu"]
     
     // 天ぷら
     let tempuraNames: [String] = ["野菜かき揚げ", "かしわ天", "えび天", "さつまいも天", "ちくわ天"]
     let tempuraImageNames: [String] = ["tempura1", "tempura2", "tempura3", "tempura4", "tempura5"]
-    let tempuraPDF: [String] = ["", "", "", "", ""]
+    let tempuraPDF: [String] = ["kakiage", "kasiwa", "ebi", "satsumaimo", "chikuwa"]
     
     // おむすび
     let omusubiNames: [String] = ["鮭", "明太子", "昆布", "いなり"]
     let omusubiImageNames: [String] = ["omusubi1", "omusubi2", "omusubi3", "omusubi4"]
-    let omusubiPDF: [String] = ["", "", "", "", ""]
+    let omusubiPDF: [String] = ["syake", "mentaiko", "konbu", "inari"]
     
     // 丼
     let donburiNames: [String] = ["親子丼", "カツ丼", "牛とじ丼"]
     let donburiImageNames: [String] = ["donburi1", "donburi2", "donburi3"]
-    let donburiPDF: [String] = ["", "", "", "", ""]
+    let donburiPDF: [String] = ["oyakodon", "katudon", "gyuutojidon"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
